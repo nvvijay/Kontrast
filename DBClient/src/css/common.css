@@ -1,0 +1,50 @@
+
+@font-face {
+    font-family: KORegular;
+    src: url("/fonts/Knockout-Regular.otf") format("opentype");
+}
+
+
+body {
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 100;
+}
+
+
+
+
+#bigTitle {
+	font-size: 40px;
+	font-weight: 700;
+}
+
+#smallTitle {
+	font-weight: 100;
+}
+
+#sidebar {
+	margin-top: 10px;
+	background: #fff;
+	border-radius: 10px;
+}
+
+.dropdown-item.active {
+	background-color: #556080;
+}
+
+#rightPanel {
+	margin: 10px;
+}
+
+#tableContainer {
+	margin: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px 0px black;
+}
+
+#dash #tableContainer{
+	/*width: 95%;*/
+	margin: auto;
+	box-shadow: none;
+}

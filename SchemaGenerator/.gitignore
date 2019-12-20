@@ -1,0 +1,6 @@
+.DS_Store
+
+buildings_old/
+generate_json/buildings/*
+json_to_sql/export/*
+

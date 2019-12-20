@@ -1,0 +1,46 @@
+#mongo  #titleContainer {
+	padding: 100px 10px 10px 10px;
+	z-index: 3;
+    background: url(/images/Mongodb.svg) no-repeat;
+    background-size: 150% 500%;
+    background-position: 0% 20%;
+}
+
+#mongo  #title {
+	background: #ad9;
+    border-radius: 0px 0px 10px 10px;
+    color: #343a40;
+	box-shadow: black 0px 5px 10px -10px;
+}
+
+
+#mongo .list-group-item.active {
+	background-color: #4faa40;
+	border-color: #ad9;
+	border-radius: 10px;
+}
+
+#mongo #jsonContainer {
+	background: #262722;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: black 0px 2px 5px 0px;
+    margin: 10px;
+}
+
+#mongo .alert {
+	position: fixed;
+	right: 10px;
+	bottom: 0px;
+	z-index: 4;
+}
+
+.popover-body {
+	font-family: monospace;
+}
+
+.popover {
+	width: 400px;
+	max-width: 400px;
+}

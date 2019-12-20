@@ -1,0 +1,35 @@
+.header {
+  background: black;
+  height: 50px;
+}
+
+.title{
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: monospace;
+  padding: 0px 50px;
+  display: inline-block;
+  float: left;
+}
+
+.navitems ul{
+  list-style: none;
+  color: white;
+  float: right;
+  margin-right: 20px;
+}
+
+.navitems ul li {
+  display: inline;
+  padding: 15px 15px;
+  cursor: pointer;
+}
+
+img {
+  margin-right: 20px;
+}
+
+NavLink {
+  color: white;
+}

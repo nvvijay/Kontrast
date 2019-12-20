@@ -1,0 +1,74 @@
+#psql  #titleContainer {
+	padding: 100px 10px 10px 10px;
+	z-index: 3;
+    background: url(/images/Psqldb.svg) no-repeat;
+    background-size: 150% 150%;
+    background-position: 0% 10%;
+}
+
+#psql  #title {
+	background: #69d;
+    border-radius: 0px 0px 10px 10px;
+    color: #343a40;
+	box-shadow: black 0px 5px 10px -10px;
+}
+
+
+#psql .list-group-item.active {
+	background-color: #369;
+	border-color: #69d;
+	border-radius: 10px;
+}
+
+#psql .card-text {
+	background: black;
+	font-family: monospace;
+	color: white;
+	border-radius: 10px;
+	padding: 15px;
+	padding-left: 50px; 
+}
+
+#psql .card-text::before {
+	content: "psql>> ";
+	font-weight: 700;
+	font-size: 13px;
+	color: #7fabda;
+}
+
+#psql #tableResult {
+	width: 100%;
+	overflow: scroll;
+	padding: 5px;
+	font-size: 10px;
+}
+
+#psql .showTableResult {
+	text-align: center;
+    position: relative;
+    right: 5px;
+    top: -50px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0px 5px;
+    cursor: pointer;
+    width: 50px;
+    float: right;
+}
+
+#psql .showTableResult:hover {
+	background: #333;
+}
+
+#psql .hide {
+	max-height: 0px;
+	transition: all 1s;
+	opacity: 0;
+}
+
+#psql .show {
+	max-height: 300px;
+	transition: all 1s;
+	opacity: 1;
+}

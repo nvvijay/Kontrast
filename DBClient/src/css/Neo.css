@@ -1,0 +1,44 @@
+#neo  #titleContainer {
+	padding: 100px 10px 10px 10px;
+	z-index: 3;
+    background: url(/images/Neodb.svg) no-repeat;
+    background-size: 150% 150%;
+    background-position: 0% 10%;
+}
+
+#neo  #title {
+	background: #343a40;
+    border-radius: 0px 0px 10px 10px;
+    color: white;
+	box-shadow: black 0px 5px 10px -10px;
+}
+
+
+#neo .list-group-item.active {
+	background-color: #018dc2;
+	border-color: #69d;
+	border-radius: 10px;
+}
+
+#neo .dropdown-menu {
+	left: -187px;
+}
+
+#neo .dropdown-menu .dropdown-item:active{
+	left: -187px;
+	background-color: #343a40;
+	color:white;
+}
+
+#neo textarea {
+	background: #343a40;
+	color: white;
+	font-weight: 700;
+	font-family: monospace;
+	caret-color: green;
+}
+
+#neo textarea:focus {
+	outline: none;
+	outline-style: none;
+}
